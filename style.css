@@ -58,16 +58,69 @@
     border-radius: 16px;
 
 }
+
+
+
+
+
+
+
+
+.bloco-1{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+   
+}
+
+.bloco-2{
+    background-color: burlywood;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+   
+
+}
+.bloco-3{
+    background-color: lightcoral;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+/*flex-direction: define a direção do eixo principal*/
 .container-row{
     display: flex;
+    border-radius: 50px;
     flex-direction: row;
-    background-color: blue;
+    background-color:cornflowerblue;
     padding: 16px;
     height: 500px;
 }
 
 .container-column{
     display: flex;
+    border-radius: 50px;
     flex-direction: column;
     background-color: cornflowerblue;
     padding: 16px;
@@ -76,6 +129,7 @@
 
 .container-columnreverse{
     display: flex;
+    border-radius: 50px;
     flex-direction: column-reverse;
     background-color: cornflowerblue;
     padding: 16px;
@@ -84,11 +138,113 @@
 
 .container-row-reverse{
     display: flex;
+    border-radius: 50px;
     flex-direction: row-reverse;
+    background-color: cornflowerblue;
+    padding: 16px;
+    height: 500px;
+}
+
+
+/*justify -content: alinha os objetos no eixo principal*/
+.container-justify-center{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
     background-color: blue;
     padding: 16px;
     height: 500px;
 }
+
+.container-justify-flex-start{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: blue;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-end{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: blue;
+    padding: 16px;
+    height: 500px;
+}
+.container-justify-space-between{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-around{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 16px;
+    height: 500px;
+}
+.container-justify-space-evenly{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    padding: 16px;
+    height: 500px;
+}
+
+
+
+/*align-items : alinha os objetos no eixo secundário*/
+
+
+.container-alignitems-center{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 64);
+    padding: 16px;
+    height: 500px;
+}
+.container-alignitems-flex-start{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:  rgb(0, 255, 64);
+    padding: 16px;
+    height: 500px;
+}
+
+
+.container-alignitems-flex-end{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:  rgb(0, 255, 64);
+    padding: 16px;
+    height: 500px;
+}
+
+
+
 
 
 
