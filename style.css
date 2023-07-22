@@ -65,3 +65,30 @@
     padding: 16px;
     height: 500px;
 }
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-columnreverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: cornflowerblue;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: blue;
+    padding: 16px;
+    height: 500px;
+}
+
+
+
