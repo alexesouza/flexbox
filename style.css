@@ -1,3 +1,6 @@
+
+
+
 .titulo-pagina {
     text-align: center;
     font-style: italic;
@@ -21,11 +24,32 @@
     font-size: 2em;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(216, 145, 13);
+    color: blue;
     padding: 20px;
 
 }
+.cabecalho{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly; 
+    
+}
 
+
+li:hover{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    border-radius: 20px;
+    padding: 12px;
+    transition: 0.4s;
+    background-color: aqua;
+    color: blue;
+    
+}
+a{
+    text-decoration: none;
+}
 
 .valor-propriedade {
     font-size: 1.5em;
@@ -72,7 +96,39 @@
 
 
 
+.bloco-1-semaltura{
+    background-color: lightpink;
+    /* height: 150px; */
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+   
+}
 
+.bloco-2-semaltura{
+    background-color: burlywood;
+    /* height: 150px; */
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+   
+
+}
+.bloco-3-semaltura{
+    background-color: lightcoral;
+    /* height: 150px; */
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+}
 
 
 
@@ -114,7 +170,7 @@
 /* ------------------------------------- */
 .bloco-1-fontes-diferentes{
     background-color: lightpink;
-    /* height: 150px; */
+    height: 150px;
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -125,7 +181,7 @@
 
 .bloco-2-fontes-diferentes{
     background-color: burlywood;
-    /* height: 150px; */
+    height: 150px;
     width: 150px;
     text-align: center;
     font-size: 60px;
@@ -137,7 +193,7 @@
 }
 .bloco-3-fontes-diferentes{
     background-color: lightcoral;
-    /* height: 150px; */
+    height: 150px;
     width: 150px;
     text-align: center;
     font-size: 90px;
@@ -304,7 +360,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
-    background-color:  rgb(28, 48, 33);
+    background-color:  rgb(0, 255, 64);
     padding: 16px;
     height: 500px;
 
