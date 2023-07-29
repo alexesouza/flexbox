@@ -16,13 +16,23 @@
     color: blue;
     padding: 20px;
 }
+.nome-propriedade-shorthand{
+    
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(216, 145, 13);
+    padding: 20px;
+
+}
+
 
 .valor-propriedade {
     font-size: 1.5em;
     font-weight: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    padding: 30px;
+    padding top: 30px;
 }
 
 .bloco-1{
@@ -101,9 +111,42 @@
 }
 
 
+/* ------------------------------------- */
+.bloco-1-fontes-diferentes{
+    background-color: lightpink;
+    /* height: 150px; */
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+   
+}
 
+.bloco-2-fontes-diferentes{
+    background-color: burlywood;
+    /* height: 150px; */
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
 
+   
 
+}
+.bloco-3-fontes-diferentes{
+    background-color: lightcoral;
+    /* height: 150px; */
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+
+}
+
+/* ---------------------------------- */
 
 
 
@@ -243,8 +286,161 @@
     height: 500px;
 }
 
+.container-alignitems-stretch{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color:  rgb(0, 255, 64);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-fontes-diferentes-baseline{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color:  rgb(28, 48, 33);
+    padding: 16px;
+    height: 500px;
+
+}
 
 
+.container-flex-wrap{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color:  rgb(179, 9, 23);
+    padding: 16px;
+    height: 500px;
 
+}
 
+.container-flex-wrap-no-wrap{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color:   rgb(179, 9, 23);
+    padding: 16px;
+    height: 500px;
+
+}
+.container-flex-wrap-wrap-reverse{
+
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap-reverse;
+    background-color:   rgb(179, 9, 23);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flex-flow-row-nowrap{
+    display: flex;
+    border-radius: 50px;
+    
+    justify-content: center;
+    align-items: center;
+   flex-flow: row nowrap;
+    background-color:   rgb(179, 9, 23);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-aligncontent-center{
+    display: flex;
+    border-radius: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color:  rgb(10, 204, 204);
+    padding: 16px;
+    height: 500px;
+}
+
+    .container-aligncontent-flex-start{
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        background-color:  rgb(10, 204, 204);
+        padding: 16px;
+        height: 500px;
+
+    }
+
+    .container-aligncontent-flex-end{
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        background-color:  rgb(10, 204, 204);
+        padding: 16px;
+        height: 500px;
+        
+    }
+
+    .container-aligncontent-space-between{
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+        background-color:  rgb(10, 204, 204);
+        padding: 16px;
+        height: 500px;
+
+    }
+    .container-aligncontent-space-around{
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        background-color:  rgb(10, 204, 204);
+        padding: 16px;
+        height: 500px;
+
+    }
+
+    .container-aligncontent-space-evenly{
+        display: flex;
+        border-radius: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        background-color:  rgb(10, 204, 204);
+        padding: 16px;
+        height: 500px;
+
+    }
 
